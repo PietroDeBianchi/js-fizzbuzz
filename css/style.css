@@ -1,0 +1,20 @@
+/* GENERAL STYLE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Martian Mono', monospace;
+}
+
+/* UTILITY TAG */
+.flexer {
+    display: flex;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #193A4A;
+    text-align: center;
+    flex-wrap: wrap;
+}
