@@ -11,10 +11,33 @@
     display: flex;
 }
 
+/* MAIN STYLE */
 main {
-    width: 100vw;
-    height: 100vh;
     background-color: #193A4A;
     text-align: center;
+    padding: 20px;
+}
+
+.container {
     flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70vw;
+    margin: auto;
+}
+
+.boxDom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: white;
+    background-color: #3F87AE;
+    margin: 10px;
+    width: calc(70vw / 10 - 20px);
+    height: calc(70vw / 10 - 20px);
+}
+
+h1 {
+    font-size: 64px;
+    padding: 20px 0;
 }
