@@ -30,14 +30,31 @@ main {
     justify-content: center;
     align-items: center;
     font-size: 12px;
-    color: white;
+    color: #29262D;
     background-color: #3F87AE;
     margin: 10px;
     width: calc(70vw / 10 - 20px);
     height: calc(70vw / 10 - 20px);
 }
 
+.boxDom.fizz {
+    background-color: #62D2A4;
+}
+
+.boxDom.buzz {
+    background-color: #F8D377;
+}
+
+.boxDom.fizzbuzz {
+    background-color: #DD5471;
+}
+
 h1 {
     font-size: 64px;
     padding: 20px 0;
+}  
+/* HOVER */
+.boxDom:hover {
+    color: white;
+    opacity: 0.75;
 }
