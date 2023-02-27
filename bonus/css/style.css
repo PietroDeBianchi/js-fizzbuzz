@@ -33,20 +33,8 @@ main {
     color: #29262D;
     background-color: #3F87AE;
     margin: 10px;
-    width: calc(70vw / 10 - 20px);
+    width: calc(70vw / 10 - 20px); /* 20px = margin * 2 */
     height: calc(70vw / 10 - 20px);
-}
-
-.boxDom.fizz {
-    background-color: #62D2A4;
-}
-
-.boxDom.buzz {
-    background-color: #F8D377;
-}
-
-.boxDom.fizzbuzz {
-    background-color: #DD5471;
 }
 
 h1 {

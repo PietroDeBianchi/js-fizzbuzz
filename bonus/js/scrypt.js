@@ -15,6 +15,8 @@ for (let i = 1; i <= 100; i++) {
     boxDom.textContent = 'Buzz';
   } else if (i % 5 === 0) {
     boxDom.textContent = 'Fizz';
+  } else {
+    console.log(i);
   }
 
   // set background-color based on text content
